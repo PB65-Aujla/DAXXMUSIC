@@ -13,7 +13,7 @@ async def delete_edited_messages(client, edited_message):
 
 async def delete_pdf_files(client, message):
     if message.document and message.document.mime_type == "application/pdf":
-        warning_message = f"@{message.from_user.username} ᴍᴀᴀ ᴍᴀᴛ ᴄʜᴜᴅᴀ ᴘᴅғ ʙʜᴇᴊ ᴋᴇ,\n ʙʜᴏsᴀᴅɪᴋᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀɢʏᴇɢᴀ \n\n ᴅᴇʟᴇᴛᴇ ᴋᴀʀ ᴅɪʏᴀ ᴍᴀᴅᴀʀᴄʜᴏᴅ.\n\n ᴀʙ @iam_daxx ʙʜᴀɪ ᴋᴇ ᴅᴍ ᴍᴇ ᴀᴘɴɪ ᴍᴜᴍᴍʏ ᴋᴏ ʙʜᴇᴊ ᴅᴇ 🍌🍌🍌."
+        warning_message = f"@{message.from_user.username} AᴜJʟᴀ Sᴇᴄᴜʀɪᴛʏ ☣️ \n Wᴀʀɴɪɴɢ ⚠️ Tʜɪs PDF Cʟᴀɪᴍ Tᴏ Gʀᴏᴜᴘ Cᴏᴘʏʀɪɢʜᴛ \n Pʟᴇᴀsᴇ Nᴏᴡ \n Sᴇǫᴜᴇᴅ Bʏ   @PB65_Aujla ."
         await message.reply_text(warning_message)
         await message.delete()
     else:  
