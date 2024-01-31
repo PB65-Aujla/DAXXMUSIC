@@ -4,7 +4,7 @@ import random
 import requests
 from DAXXMUSIC import app 
 
-SUPPORT_CHAT = "ALLTYPECC"
+SUPPORT_CHAT = "The_ChatGroup"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
@@ -32,7 +32,7 @@ async def wish(_, m):
 BUTTON = [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]
 CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
 
-@app.on_message(filters.command("cute"))
+@app.on_message(filters.command("sweet"))
 async def cute(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
@@ -59,5 +59,5 @@ help_text = """
 (ᴡɪꜱʜᴇꜱ) ʏᴏᴜ ᴄᴀɴ ᴜꜱɪɴɢ ᴛʜɪꜱ ʙᴏᴛ ᴛᴏ ʜᴏᴡ ᴘᴏꜱꜱɪʙʟᴇ ᴛᴏ ʏᴏᴜʀ ᴡɪꜱʜ!
 ᴇxᴀᴍᴘʟᴇ:» /wish : ɪ ᴡᴀɴᴛ ᴄʟᴀꜱꜱ ᴛᴏᴘᴘᴇʀ 
 » /wish : ɪ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ɪᴘʜᴏɴᴇ 
-» /cute : ʜᴏᴡ ᴍᴜᴄʜ ɪ ᴀᴍ ᴄᴜᴛᴇ 
+» /sweet : ʜᴏᴡ ᴍᴜᴄʜ ɪ ᴀᴍ ᴄᴜᴛᴇ 
 """
