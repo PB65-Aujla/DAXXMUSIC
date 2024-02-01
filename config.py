@@ -26,10 +26,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002029640405))
+LOGGER_ID = int(getenv("LOGGER_ID", -1004193016013))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6812324137))
+OWNER_ID = int(getenv("OWNER_ID", 6687338991))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
