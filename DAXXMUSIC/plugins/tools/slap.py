@@ -68,23 +68,23 @@ async def handle_action(update: Update, context: ContextTypes.DEFAULT_TYPE, acti
 
 # Individual command handlers
 async def kiss(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await handle_action(update, context, "pappi", "💋")
+    await handle_action(update, context, "pappi", "pyar")
 
 async def slap(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await handle_action(update, context, "lapad", "👋")
+    await handle_action(update, context, "lapad", "tapad")
 
 async def hug(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await handle_action(update, context, "zaffi", "🫂")
+    await handle_action(update, context, "zaffi", "sukoon")
 
 async def sleep(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await handle_action(update, context, "sleep", "💤")
+    await handle_action(update, context, "sleep", "sleep")
 
 async def run(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await handle_action(update, context, "run", "run")
 
 # CommandHandlers
-app.add_handler(CommandHandler("pappi", 💋, block=False))
-app.add_handler(CommandHandler("lapad", 👋, block=False))
-app.add_handler(CommandHandler("zaffi", 🫂, block=False))
+app.add_handler(CommandHandler("pappi", pyar, block=False))
+app.add_handler(CommandHandler("lapad", tapad, block=False))
+app.add_handler(CommandHandler("zaffi", sukoon, block=False))
 app.add_handler(CommandHandler("sleep", sleep, block=False))
 app.add_handler(CommandHandler("run", run, block=False))
